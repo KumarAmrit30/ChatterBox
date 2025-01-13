@@ -34,7 +34,7 @@ ChatterBox is a real-time messaging application developed using Flutter and Fire
  • flutter run<br>
 
 # Project Structure
-lib/
+lib/<br>
 ├── main.dart             # Application entry point<br>
 ├── models/               # Data models<br>
 ├── screens/              # UI screens<br>
