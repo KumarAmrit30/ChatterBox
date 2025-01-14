@@ -92,15 +92,24 @@ class _AuthState extends State<AuthScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                margin: const EdgeInsets.only(
-                  bottom: 20,
-                  top: 30,
-                  left: 20,
-                  right: 20,
+                // margin: const EdgeInsets.only(
+                //   bottom: 20,
+                //   top: 30,
+                //   left: 20,
+                //   right: 20,
+                // ),
+                width: 300,
+                height: 300, // Circular shape requires equal width and height
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: Theme.of(context).colorScheme.primaryContainer,
                 ),
-                width: 200,
-                child: Image.asset(
-                  'assets/images/chat.png',
+                child: ClipOval(
+                    child: Image.asset(
+                      'assets/images/icon.png',
+                      fit: BoxFit.cover, // Ensure the image fits within the circle
+                    ),
+                  
                 ),
               ),
               Card(
@@ -121,8 +130,10 @@ class _AuthState extends State<AuthScreen> {
                             ),
                           if (!_isLogin)
                             TextFormField(
-                              validator: (value){
-                                if(value == null || value.isEmpty || value.length < 4){
+                              validator: (value) {
+                                if (value == null ||
+                                    value.isEmpty ||
+                                    value.length < 4) {
                                   return 'Username must be at least 4 characters long.';
                                 }
                                 return null;
@@ -132,7 +143,7 @@ class _AuthState extends State<AuthScreen> {
                                 labelText: 'username',
                               ),
                               enableSuggestions: false,
-                              onSaved: (value){
+                              onSaved: (value) {
                                 _enteredUsername = value!;
                               },
                             ),
@@ -153,7 +164,6 @@ class _AuthState extends State<AuthScreen> {
                             },
                             onSaved: (value) => _enteredEmail = value!,
                           ),
-                          
                           TextFormField(
                             decoration: const InputDecoration(
                               labelText: 'password',
