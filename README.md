@@ -28,7 +28,7 @@ ChatterBox is a real-time messaging application developed using Flutter and Fire
 • Error Handling: Comprehensive error handling to manage authentication errors, network issues, and data retrieval exceptions.<br>
 
 # Download 
-https://drive.google.com/file/d/18xMS7uAxB0GEDjMsKEjxZsR40CCEnzdp/view?usp=sharing
+https://drive.google.com/file/d/1d0loD8SqmwPxWiMYPAAIqe-WftPAtQNp/view?usp=share_link
 
 # Prerequisites
 • Flutter SDK: Ensure Flutter is installed on your development machine.<br>
