@@ -1,6 +1,17 @@
 # ChatterBox
 ChatterBox is a real-time messaging application developed using Flutter and Firebase. It offers a communal chat platform where users can exchange text messages, images, and videos seamlessly. The app leverages Firebase services for authentication, data storage, and media handling, ensuring a robust and scalable backend infrastructure.
 
+### Signup Screen:
+<img src="https://github.com/user-attachments/assets/94d85c35-dcfc-4156-9419-d53eb3e81451" alt="ChatterBox Logo" width="300" height="700">
+
+### Login Screen:
+<img src="https://github.com/user-attachments/assets/713d807b-229c-4ed5-847a-2403009c683a" alt="Login Screen" width="300" height="700">
+
+### App Screenshots:
+<img src="https://github.com/user-attachments/assets/b1e3506c-5b86-41fd-8771-c1376184e291" alt="Screenshot 1" width="300" height="700">
+<img src="https://github.com/user-attachments/assets/e29e562a-acc9-4d2d-a456-e534a7c2da63" alt="Screenshot 2" width="300" height="700">
+<img src="https://github.com/user-attachments/assets/c9704ca0-bdb3-478a-866f-c05802b83b89" alt="Screenshot 3" width="300" height="700">
+
 # Features
  • Real-Time Messaging: Instant exchange of messages among users.<br>
  • Media Sharing: Support for sending images and videos.<br>
@@ -17,7 +28,7 @@ ChatterBox is a real-time messaging application developed using Flutter and Fire
 • Error Handling: Comprehensive error handling to manage authentication errors, network issues, and data retrieval exceptions.<br>
 
 # Download 
-https://drive.google.com/file/d/1AJtgbWYrNqQxp2Mh_olF5HCOnSW1gbP7/view?usp=drivesdk
+https://drive.google.com/file/d/18xMS7uAxB0GEDjMsKEjxZsR40CCEnzdp/view?usp=sharing
 
 # Prerequisites
 • Flutter SDK: Ensure Flutter is installed on your development machine.<br>
