@@ -1,4 +1,5 @@
 import 'package:chat_bot/widgets/chat_messages.dart';
+import 'package:chat_bot/widgets/main_drawer.dart';
 import 'package:chat_bot/widgets/new_message.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -41,6 +42,7 @@ class _ChatScreenState extends State<ChatScreen> {
             ),
           ],
         ),
+        drawer: const MainDrawer(),
         body: const Column(
           children: [
             Expanded(child: ChatMessages(),),

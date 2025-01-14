@@ -20,6 +20,7 @@
 import 'package:chat_bot/firebase_options.dart';
 import 'package:chat_bot/screens/auth.dart';
 import 'package:chat_bot/screens/chat.dart';
+// import 'package:chat_bot/screens/chat_list.dart';
 import 'package:chat_bot/screens/splash.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
